@@ -1,0 +1,16 @@
+{
+    "predictions": [
+      {
+        "label": "car",
+        "confidence": 0.95,
+        "bounding_box": [100, 150, 400, 450]   
+      },
+      {
+        "label": "pedestrian",
+        "confidence": 0.88,
+        "bounding_box": [500, 200, 600, 400]
+      }
+    ],
+    "message": "Success"
+  }
+  

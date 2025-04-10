@@ -69,7 +69,7 @@ def process_image(uploaded_file, max_width=800, quality=80):
 
 def detect_objects(uploaded_file, object_type):
     url = "https://api.landing.ai/v1/tools/agentic-object-detection"
-    api_key = "ejZ2czQ3YXk1NzQzY2h5cnY5dXZjOmRxRnQwSDBlRXdvaHRlRG5zbElVRzJaT2NFUkNnSnJ2"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     
     # Prepare the image for processing
     processed_image = process_image(uploaded_file)  # Make sure process_image() is defined
